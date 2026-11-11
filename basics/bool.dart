@@ -4,4 +4,6 @@ void main() {
   int b = 20;
   bool c = (a == b);
   print(c);
+  print(a.isOdd);
+  print(b.isEven); // built in method
 }
