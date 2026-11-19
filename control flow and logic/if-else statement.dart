@@ -8,4 +8,9 @@ void main() {
   else {
     print("child");
   }
+  String somevalue = "apple";
+
+  //terenary operator
+  String value = somevalue.startsWith("a") ? "yes" : "no";
+  print(value);
 }
