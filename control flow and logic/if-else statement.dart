@@ -13,4 +13,15 @@ void main() {
   //terenary operator
   String value = somevalue.startsWith("a") ? "yes" : "no";
   print(value);
+
+  //switch statement
+  String fruit = "banana";
+  switch (fruit) {
+    case "apple":
+      print("This is an apple");
+    case "banana":
+      print("This is a banana");
+    default:
+      print("Unknown fruit");
+  }
 }
